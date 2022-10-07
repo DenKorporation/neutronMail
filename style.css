@@ -78,7 +78,7 @@ h1 {
 	font-weight: bold;
 }
 
-.color-text {
+.purple-text {
 	color: #5b4295;
 	font-family: TW-B;
 }
@@ -164,12 +164,87 @@ button {
 
 .top-info {
 	width: 1800px;
-	height: 1000px;
+	height: 766px;
 	background-image: url(img/header-bg-1.png);
-	background-position: top;
+	background-position: 0 -297px;
+	}
+
+	.top-info h2 {
+		font-family: TW-SB;
+		font-size: 60px;
+		text-align: center;
+		word-spacing: -1px;
+		letter-spacing: 0.7px;
+		margin-top: 146px;
+		margin-left: -1px;
+	}
+
+	.top-info p {
+		font-size: 36px;
+		text-align: center;
+		margin-top: -7px;
+		letter-spacing: 0.5px;
+	}
+
+	.red-text {
+		color: red;
+	}
+
+
+	.top-btns {
+		width: 602px;
+		height: 57px;
+		background-image: url(img/create-bg.png);
+		background-position: 0 23px;
+		background-repeat: no-repeat;
+		margin-left: 588px;
+		margin-top: 65px;
+	}
+
+
+	.create-btn {
+		font-family: TW-B;
+		font-size: 18px;
+		color: white;
+		height: 57px;
+		width: 246px;
+		border-radius: 28px;
+		background-image: linear-gradient(to right, #646c92, #582c7e);
+		margin-right: 22px;
+		margin-left: 120px;
+	}
+
+	.apple-btn {
+		font-size: 22px;
+		color: white;
+		height: 46px;
+		width: 46px;
+		border-radius: 23px;
+		background-color: #582c7e;
+		margin-right: 17px;
+		margin-top: 5px;
+	}
+
+	.google-btn {
+		font-size: 22px;
+		color: white;
+		height: 46px;
+		width: 46px;
+		border-radius: 23px;
+		background-color: #582c7e;
+	}
+
+	.create-btn:hover,
+	.apple-btn:hover,
+	.google-btn:hover {
+		box-shadow: 0 10px 20px 0px #6276cd;
 }
 
 
+.temp {
+	height: 1000px;
+	width: 1800px;
+}
 
 
 footer {
