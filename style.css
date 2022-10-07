@@ -1,0 +1,163 @@
+@font-face {
+	font-family: TW-R;
+	src: url('fonts/TitilliumWeb-Regular.ttf')
+}
+
+@font-face {
+	font-family: TW-B;
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/TitilliumWeb-Bold.ttf');
+}
+
+@font-face {
+	font-family: TW-Bl;
+	src: url('fonts/TitilliumWeb-Black.ttf');
+}
+
+@font-face {
+	font-family: Malaga;
+	src: url('fonts/MalagaOT-RegItalic.otf')
+}
+
+@font-face {
+	font-family: TW-SB;
+	src: url('fonts/TitilliumWeb-SemiBold.ttf')
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: TW-R;
+}
+
+body {
+	width: 1800px;
+	height: 3140px;
+	color: #858688;
+}
+
+header {
+	padding: 72px 200px 0px 200px
+}
+
+h1 {
+	display: inline-block;
+	font-family: TW-B;
+	font-size: 30px;
+	margin-left: -1px;
+	margin-right: 567px;
+}
+
+.header-nav {
+	display: inline-block;
+	margin-right: 49px;
+}
+
+.header-nav ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.header-nav ul li {
+	position: relative;
+	top: -4px;
+	display: inline-block;
+	list-style: none;
+	margin-right: 23px;
+}
+
+.header-nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.header-nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.color-text {
+	color: #5b4295;
+	font-family: TW-B;
+}
+
+button:hover {
+	cursor: pointer;
+	transform: translate(0px, -5px) scale(1.05);
+	transition: 0.3s all ease;
+}
+
+button {
+	border: none;
+	background: none;
+	transition: 0.3s all ease;
+}
+
+
+.log-in-btns {
+	display: inline-block;
+	margin-left: auto;
+}
+
+.btn-log-in {
+	position: relative;
+	top: -4px;
+	font-family: TW-B;
+	font-size: 16px;
+	border: none;
+	background: none;
+}
+
+.log-in-icon {
+	color: #582c7e;
+	padding-right: 8px;
+}
+
+.btn-sign-up {
+	width: 95px;
+	height: 40px;
+	font-family: TW-B;
+	font-size: 16px;
+	color: white;
+	background-image: linear-gradient(to top left, #6276cd, #582c7e);
+	border-radius: 20px;
+	margin-left: 19px;
+	position: relative;
+	top: -2px;
+}
+
+.btn-sign-up:hover {
+	box-shadow: 0 10px 20px 0px #6276cd;
+}
+
+.language-list {
+	font-size: 14px;
+	transition: 0.2s all ease;
+}
+
+
+.language-list>input {
+	display: none;
+}
+
+#language-list1:checked+label,
+#language-list2:checked+label,
+#language-list3:checked+label,
+#language-list4:checked+label {
+	font-family: TW-B;
+	text-decoration: underline;
+}
+
+.top-info {
+	width: 1800px;
+	height: 1000px;
+	background-image: url(img/header-bg-1.png);
+}
+
+
+
+
+footer {
+	height: 600px;
+}
