@@ -70,7 +70,7 @@ h1 {
 
 .header-nav ul li a {
 	text-decoration: none;
-	color: black;
+	color: #454545;
 }
 
 .header-nav ul li a:hover {
@@ -105,6 +105,7 @@ button {
 	position: relative;
 	top: -4px;
 	font-family: TW-B;
+	color:#454545;
 	font-size: 16px;
 	border: none;
 	background: none;
@@ -134,6 +135,7 @@ button {
 
 .language-list {
 	font-size: 14px;
+	color: #959595;
 	transition: 0.2s all ease;
 	margin-left: -1px;
 	margin-top: 10px;
@@ -158,36 +160,42 @@ button {
 	letter-spacing: 0.8px;
 	transition: 0.2s all ease;
 	font-weight: bold;
-	border-bottom: 1px solid #858688;
+	border-bottom: 1px solid #959595;
 	transform: translate(0px, 3px);
+}
+
+main {
+	height: 2387px;
 }
 
 .top-info {
 	width: 1800px;
 	height: 766px;
 	background-image: url(img/header-bg-1.png);
-	background-position: 0 -297px;
+	background-position: 0 -151px;
 	}
 
 	.top-info h2 {
 		font-family: TW-SB;
 		font-size: 60px;
+		color: #454545;
 		text-align: center;
 		word-spacing: -1px;
 		letter-spacing: 0.7px;
-		margin-top: 146px;
-		margin-left: -1px;
+		padding-top: 146px;
+		padding-left: -1px;
 	}
 
 	.top-info p {
 		font-size: 36px;
+		color: #464646;
 		text-align: center;
 		margin-top: -7px;
 		letter-spacing: 0.5px;
 	}
 
 	.red-text {
-		color: red;
+		color: #fc2028;
 	}
 
 
@@ -240,13 +248,183 @@ button {
 		box-shadow: 0 10px 20px 0px #6276cd;
 }
 
+.top-vert-line {
+	content: "";
+	width: 1px;
+	height: 210px;
+	background-color: #b9b9b9;
+	position: absolute;
+	left: 714px;
+	top: 785px;
+}
 
-.temp {
-	height: 1000px;
-	width: 1800px;
+.top-hor-line {
+	content: "";
+	width: 192px;
+	height: 1px;
+	background-color: #b9b9b9;
+	position: absolute;
+	left: 1608px;
+	top: 917px;
 }
 
 
 footer {
-	height: 600px;
+	height: 603px;
+	}
+
+	.footer-container {
+		width: 1400px;
+		border-top: 1px solid #b9b9b9;
+		font-size: 14px;
+		color: #5c5c5c;
+	}
+
+	.footer-container>p:not(.copyright) {
+		text-align: right;
+		color: #7a7a7a;
+		margin-right: 24px;
+		margin-top: 17px;
+		letter-spacing: 0.1px;
+	}
+
+	.sponsors-imgs {
+		margin-left: 465px;
+		margin-top: -3px;
+	}
+
+	.sponsors-line {
+		content: "";
+		width: 1px;
+		height: 441px;
+		background-color: #b9b9b9;
+		position: absolute;
+		left: 1399px;
+		top: 2538px;
+	}
+
+	.contact-line {
+		content: "";
+		width: 1px;
+		height: 130px;
+		background-color: #b9b9b9;
+		position: absolute;
+		left: 200px;
+		top: 2830px;
+	}
+
+	.company-line {
+		content: "";
+		width: 1px;
+		height: 316px;
+		background-color: #b9b9b9;
+		position: absolute;
+		left: 946px;
+		top: 2825px;
+	}
+
+	.footer-container .bold-text {
+		font-family: TW-B;
+	}
+
+	.contact-list {
+		display: inline-block;
+		position: relative;
+		left: 220px;
+		top: 123px;
+		line-height: 23px;
+		letter-spacing: 0.15px;
+
+	}
+
+	.contact-list>ul>li {
+		list-style: none;
+		margin-bottom: 0.5px;
+	}
+
+	.contact-list>ul>li a {
+		color: #5c5c5c;
+	}
+
+	.footer-container figure {
+		display: inline-block;
+		text-align: right;
+	}
+
+	.footer-container figure>figcaption {
+		font-size: 18px;
+		margin-bottom: 23px;
+	}
+
+	.footer-container figure>ul>li>a {
+		color: #5c5c5c;
+		text-decoration: none;
+	}
+
+	.footer-container figure>ul>li>a:hover {
+		cursor: pointer;
+		color: #fc2028;
+	}
+
+	.footer-container figure>ul>li {
+		list-style: none;
+		margin-bottom: 1.5px;
+	}
+
+	.footer-container figure>ul>li::after {
+		content: "•";
+		margin-left: 6px;
+	}
+
+	.company-list {
+		position: relative;
+		top: 148px;
+		left: 631px;
+		letter-spacing: 0.2px;
+	}
+
+	.legal-list {
+		position: relative;
+		top: 148px;
+		left: 741px;
+		letter-spacing: 0.2px;
+	}
+
+	.neutron-mail-list {
+		position: relative;
+		top: 148px;
+		left: 829px;
+		letter-spacing: 0.2px;
+	}
+
+	.social-list {
+		font-size: 12px;
+		position: relative;
+		top: 222px;
+		left: 201px;
+	}
+
+	.social-list>a {
+		color: #5c5c5c;
+		text-decoration: underline;
+		text-decoration-color: #dedede;
+	}
+
+	.social-list>a:hover {
+		color: #fc2028;
+		text-decoration-color: #fc2028;
+	}
+
+	.social-list .footer-slash {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.copyright {
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 0.1px;
+		position: relative;
+		top: 232px;
+		left: 200px;
 }
