@@ -344,8 +344,8 @@ main {
 	box-sizing: border-box;
 	width: 100%;
 	height: 200px;
-	border-top: 216px solid #fff;
-	border-right: 120vw solid transparent;
+	border-top: 215px solid #fff;
+	border-right: 1900px solid transparent;
 	z-index: 0;
 }
 
@@ -356,14 +356,14 @@ main {
 	height: 670px;
 	displaY: block;
 	position: absolute;
-	right: 17.6vw;
-	top: -15.6vh;
+	right: 270px;
+	top: -117px;
 	z-index: -1;
 }
 
 .purchase-block {
-	padding-top: 7.16vh;
-	padding-bottom: 8.76vh;
+	padding-top: 52px;
+	padding-bottom: 2000px;
 	background: linear-gradient(to bottom left, #fafafa, #ffffff);
 }
 
@@ -371,15 +371,16 @@ main {
 	content: "";
 	display: block;
 	height: 1px;
-	width: 72.86vw;
+	width: 1400px;
 	position: relative;
 	background: #b9b9b9;
 	top: -62px;
-	left: -8.5vw;
+	left: -30px;
+
 }
 
 .purchase-content {
-	max-width: 50vw;
+	max-width: 940px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -393,7 +394,7 @@ main {
 }
 
 .purchase-head>p {
-	margin-top: 1px;
+	margin-top: 0px;
 	color: #7c7c7c;
 	font-size: 1.8rem;
 	position: relative;
@@ -408,7 +409,7 @@ main {
 	grid-template: 1fr / 246px 166px;
 	justify-content: center;
 	grid-gap: 50px;
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .purchase-btns>button {
@@ -460,6 +461,7 @@ main {
 }
 footer {
 	height: 603px;
+
 	}
 
 	.footer-container {
