@@ -172,7 +172,7 @@ main {
 .top-info {
 	width: 1800px;
 	height: 766px;
-	background-image: url(img/header-bg-1.png);
+	background-image: url(img/header-bg.png);
 	background-position: 0 -151px;
 	}
 
@@ -251,7 +251,26 @@ main {
 	.download-button.app-store-load:hover,
 	.download-button.google-load:hover{
 		box-shadow: 0 10px 20px 0px #6276cd;
-}
+	}
+
+	.right-social {
+		display: inline-block;
+		font-size: 22px;
+		position: absolute;
+		top: 322px;
+		left: 1746px;
+	}
+
+	.right-social a {
+		display: block;
+		padding-bottom: 15px;
+		color: #454545;
+		text-decoration: none;
+	}
+
+	.right-social a:hover {
+		color: #fc2028;
+	}
 
 .top-vert-line {
 	content: "";
